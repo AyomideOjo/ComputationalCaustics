@@ -52,3 +52,5 @@ for it = 1:maxiter
     ph0.YData = p(:,2);
     f = getframe;
 end
+
+saveas(fig, 'Output_Image.png');
